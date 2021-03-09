@@ -1,0 +1,6 @@
+﻿  main.cpp
+E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(107,39): warning C4018: '<': signed/unsigned mismatch
+E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(112,39): warning C4018: '<': signed/unsigned mismatch
+E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(117,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Drill13\main.cpp(4,43): error C2440: 'initializing': cannot convert from 'initializer list' to 'Simple_window'
+C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Drill13\main.cpp(4,43): message : No constructor could take the source type, or constructor overload resolution was ambiguous
