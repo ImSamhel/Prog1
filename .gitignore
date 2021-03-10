@@ -2,3 +2,4 @@
 *.exe
 *.db
 GraphLibDrillek/*/.vs/
+*/.vs/
