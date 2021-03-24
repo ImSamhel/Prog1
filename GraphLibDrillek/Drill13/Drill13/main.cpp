@@ -3,7 +3,7 @@
 int main() {
 	Simple_window win {Point{10,10},900,1000,"Drill13"}; // 800x1000 a drillben, de a next button szeretete fontosabb
 
-	int x_size = 800; // get the size of our window
+	int x_size = 800; 
 	int y_size = 800;
 	int x_grid = 100;
 	int y_grid = 100;
