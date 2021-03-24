@@ -8,9 +8,9 @@ C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Drill13\main.cpp(20):
 C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Drill13\main.cpp(20): message : see reference to class template instantiation 'Graph_lib::Vector_ref<Graph_lib::Rectangle>' being compiled
 LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  3 of 603 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  38 of 603 functions ( 6.3%) were compiled, the rest were copied from previous compilation.
+    26 functions were new in current compilation
+    32 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 GraphLib.lib(Simple_window.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(Simple_window.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Release\GraphLib.pdb'; linking object as if no debug info
 GraphLib.lib(Graph.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(Graph.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\GraphLibDrillek\Drill13\Release\GraphLib.pdb'; linking object as if no debug info

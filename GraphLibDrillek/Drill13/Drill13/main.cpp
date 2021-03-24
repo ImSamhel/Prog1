@@ -10,10 +10,10 @@ int main() {
 	Lines grid;
 
 	for (int x = x_grid; x <= x_size; x += x_grid)
-		grid.add(Point{ x,0 }, Point{ x,y_size }); 
+		grid.add(Point( x,0 ), Point( x,y_size )); 
 
 	for (int y = y_grid; y <= y_size; y += y_grid)
-		grid.add(Point{ 0,y }, Point{ x_size,y });
+		grid.add(Point( 0,y ), Point( x_size,y ));
 
 	win.attach(grid);
 
@@ -21,24 +21,24 @@ int main() {
 
 	for (int i = 0; i < (x_size/x_grid); i++) {
 		int x = i * x_grid;
-		Point point1{ x,x };
-		Point point2{x+100,x+100};
-		rectangles.push_back(new Graph_lib::Rectangle{ point1,point2 });
+		Point point1( x,x );
+		Point point2(x+100,x+100);
+		rectangles.push_back(new Graph_lib::Rectangle(point1, point2));
 		rectangles[rectangles.size() - 1].set_fill_color(Color::red);
 		rectangles[rectangles.size() - 1].set_color(Color::red);
 		win.attach(rectangles[rectangles.size() - 1]);
 	}
 
-	Image ceci1{ Point{0,600},"cecike1.jpg" };
-	Image ceci2{ Point{0,400},"cecike1.jpg" };
-	Image ceci3{ Point{200,600},"cecike1.jpg" };
+	Image ceci1( Point(0,600),"cecike1.jpg" );
+	Image ceci2( Point(0,400),"cecike1.jpg" );
+	Image ceci3( Point(200,600),"cecike1.jpg" );
 		
 	win.attach(ceci1);
 	win.attach(ceci2);
 	win.attach(ceci3);
 
-	Point pennyPoint{ 0,0 };
-	Image pennymarket{ pennyPoint,"pennymarket.jpg" };
+	Point pennyPoint( 0,0 );
+	Image pennymarket( pennyPoint,"pennymarket.jpg" );
 	win.attach(pennymarket);
 	
 	while (win.wait_for_button()) {
@@ -56,9 +56,6 @@ int main() {
 			pennymarket.move(-700, 100);
 		}
 	}
-	
-	for (int i = 0; i < rectangles.size(); i++)
-		delete& rectangles[i];
 		
 	return 0;
 }
