@@ -1,5 +1,4 @@
 #include <Simple_window.h>
-#include "Person.h"
 
 double one(double x) {
 	return 1;
@@ -15,15 +14,6 @@ double square(double x) {
 
 double sloping_cos(double x) {
 	return slope(x) + cos(x);
-}
-
-void classDefinitionPart() {
-	Person someone("Goofy", 63);
-	cout << someone;
-	Person otherone;
-	cin >> otherone;
-	cout << otherone;
-
 }
 
 int main() {
@@ -82,9 +72,8 @@ int main() {
 	win.attach(squareF);
 	win.attach(cosine);
 	win.attach(slopingCos);
-	win.wait_for_button();
 
-	classDefinitionPart();
+	win.wait_for_button();
 
 	return 0;
 
