@@ -2,14 +2,15 @@
 E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(107,39): warning C4018: '<': signed/unsigned mismatch
 E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(112,39): warning C4018: '<': signed/unsigned mismatch
 E:\Visual Studio\VC\Tools\MSVC\14.28.29333\include\GUI.h(117,39): warning C4018: '<': signed/unsigned mismatch
+C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Drill15\main.cpp(65,18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  4 of 440 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
+  2 of 478 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 GraphLib.lib(Simple_window.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(Simple_window.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Release\GraphLib.pdb'; linking object as if no debug info
 GraphLib.lib(Window.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(Window.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Release\GraphLib.pdb'; linking object as if no debug info
 GraphLib.lib(Graph.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(Graph.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Release\GraphLib.pdb'; linking object as if no debug info
-GraphLib.lib(GUI.obj) : warning LNK4099: PDB '' was not found with 'GraphLib.lib(GUI.obj)' or at ''; linking object as if no debug info
+GraphLib.lib(GUI.obj) : warning LNK4099: PDB 'GraphLib.pdb' was not found with 'GraphLib.lib(GUI.obj)' or at 'C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Release\GraphLib.pdb'; linking object as if no debug info
   Drill15.vcxproj -> C:\Users\xx\Documents\GitHub\Prog1\Drill15\Drill15\Release\Drill15.exe
