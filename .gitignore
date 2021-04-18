@@ -3,3 +3,4 @@
 *.db
 GraphLibDrillek/*/.vs/
 */.vs/
+*.opendb
