@@ -8,7 +8,7 @@ public:
 	S(T a) { val = a; }
 	T& get() const;
 	T& get();
-	void operator=(const T&);
+	S<T> operator=(const T&);
 };
 
 template<typename T> T& S<T>::get() const {
@@ -19,8 +19,9 @@ template<typename T> T& S<T>::get() {
 	return S::val;
 }
 
-template<typename T> void S<T>::operator=(const T& t) {
+template<typename T> S<T> S<T>::operator=(const T& t) {
 	S::val = t.get();
+	return this;
 }
 
 template<typename T> void read_val(T& v) {
