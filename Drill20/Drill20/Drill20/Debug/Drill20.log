@@ -1,0 +1,4 @@
+﻿  drill20.cpp
+C:\Users\xx\Documents\GitHub\Prog1\Drill20\Drill20\Drill20\drill20.cpp(10): warning C4172: returning address of local variable or temporary: f2
+C:\Users\xx\Documents\GitHub\Prog1\Drill20\Drill20\Drill20\drill20.cpp(10): warning C4172: returning address of local variable or temporary: f2
+  Drill20.vcxproj -> C:\Users\xx\Documents\GitHub\Prog1\Drill20\Drill20\Debug\Drill20.exe
