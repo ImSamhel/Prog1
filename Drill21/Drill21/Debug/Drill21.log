@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\xx\Documents\GitHub\Prog1\Drill21\Drill21\main.cpp(141,36): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\xx\Documents\GitHub\Prog1\Drill21\Drill21\main.cpp(147,20): warning C4018: '<': signed/unsigned mismatch
+  Drill21.vcxproj -> C:\Users\xx\Documents\GitHub\Prog1\Drill21\Debug\Drill21.exe
